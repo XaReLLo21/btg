@@ -1,16 +1,17 @@
 import headerStyles from '../src/styles/Header.module.css'
+import SearchBar from './SearchBar'
 
-const Header = () => {
+export default function Header() {
   return (
-    <div className={headerStyles.header}>
-      <h1 className={headerStyles.title}>
-        <span>Barcelona</span> Guide
-      </h1>
-      <p className={headerStyles.description}>
-        Skriven av svenskar boendes i Barcelona
-      </p>
-    </div>
+    <>
+      <div className={headerStyles.header}>
+        <div className={headerStyles.titleDiv}>
+          <h1 className={headerStyles.title}>Att resa är att leva</h1>
+          <div className={headerStyles.searchBar}>
+            <SearchBar />
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
-
-export default Header

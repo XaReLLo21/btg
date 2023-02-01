@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&display=swap');
+
+.image {
+  background-image: url('https://res.cloudinary.com/dyfvqv9tu/image/upload/v1675148710/barcelona_rveqjq.jpg');
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  opacity: 0.8;
+}
+
 .header {
-  background-color: rgb(36, 181, 234);
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
 }
 .title a,
 .title span {
-  color: #0070f3;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -14,17 +30,56 @@
 }
 
 .title {
+  color: #ffffff;
+  font-family: 'Hind';
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
+  font-size: 7rem;
+  font-weight: 900;
   text-align: center;
 }
 
 .description {
-  line-height: 1.5;
   font-size: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBar input {
+  padding: 20px;
+  opacity: 0.9;
+  font-family: 'Hind';
+  font-size: 1.3em;
+  font-weight: 300;
+  color: black;
+  width: 400px;
+}
+
+.searchBar button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Hind';
+  font-size: 1.3em;
+  font-weight: 300;
+  color: white;
+  margin-left: 10px;
+  opacity: 0.9;
+  background-color: #75ed54;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 10 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }

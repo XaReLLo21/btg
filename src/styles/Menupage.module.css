@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&display=swap');
+
+.container {
+  padding-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.container h1 {
+  font-family: 'Hind';
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+
+.container div {
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.container p {
+  font-family: 'Hind';
+  text-align: center;
+}

@@ -1,7 +1,7 @@
-import { taDigRunt } from '../../../../databcn'
+import { frontItems } from '../../../../databcn'
 
 export default function handler({ query: { title } }, res) {
-  const filtered = taDigRunt.filter((artikel) => artikel.title === title)
+  const filtered = frontItems.filter((artikel) => artikel.title === title)
 
   if (filtered.length > 0) {
     res.status(200).json(filtered[0])

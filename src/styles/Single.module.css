@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&display=swap');
+
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.columnLeft {
+  height: 100%;
+  width: 100%x; /* A fixed width as the default */
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 1px;
+  background-color: rgba(255, 255, 255, 0.11);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.columnLeftLayout {
+  height: 100%;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.columnRightLayout {
+  height: 100%;
+  width: 300px;
+  margin-left: 30px;
+}
+
+.columnRight {
+  height: 100%;
+  width: 300px; /* A fixed width as the default */
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 1px;
+  background-color: rgba(134, 0, 74);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.columnLeftLayout,
+.columnRightLayout h1 {
+  display: flex;
+  font-family: 'Hind';
+  font-weight: 900;
+  font-size: 3rem;
+  margin-top: 30px;
+  color: rgb(134, 0, 74);
+  justify-content: center;
+  margin-bottom: -10px;
+}
+
+.columnRightLayout hr {
+  width: 70%;
+  justify-content: center;
+  border-color: rgb(134, 0, 74);
+}
+
+.columnRightContainer {
+  height: 100%;
+  width: 100%; /* A fixed width as the default */
+  padding: 10px;
+  background-color: rgba(255, 255, 255);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.columnLeftContainer {
+  height: 100%;
+  width: 100%; /* A fixed width as the default */
+  padding: 10px;
+  background-color: rgba(255, 255, 255);
+}
+
+.columnRightContainer:hover {
+  height: 100%;
+  width: 100%; /* A fixed width as the default */
+  padding: 10px;
+  border: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 20px rgba(250, 163, 163, 0.8);
+}
+
+.link {
+  text-align: center;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightColumnTextIcon {
+  display: flex;
+  margin-top: 10px;
+}
+
+.rightColumnTextIcon .icon {
+  margin-left: 30px;
+
+  width: 5%;
+}
+
+.rightColumnTextIcon .paragraph {
+  flex: 1;
+}
+
+.columnRight h3 {
+  color: rgb(134, 0, 74);
+  text-align: center;
+  font-weight: 500;
+}
+
+.columnCenter h1 {
+  font-family: 'Hind';
+  font-weight: 900;
+  font-size: 3rem;
+  padding: 10px;
+  color: rgb(134, 0, 74);
+  text-align: center;
+}
+
+.columnCenter {
+  flex: 1; /* Set the middle element to grow and stretch */
+  text-align: justify;
+  background-color: rgba(134, 0, 74);
+}
+
+.columnCenterContainer {
+  height: 100%;
+  width: 800px; /* A fixed width as the default */
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255);
+}
+
+.divhr {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.hr {
+  width: 40%;
+  justify-content: center;
+  border-color: rgb(134, 0, 74);
+}
+
+.divhrright {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hrright {
+  width: 40%;
+  justify-content: center;
+  border-color: rgb(134, 0, 74);
+}
+
+.paragraph p {
+  font-family: 'Hind';
+  font-weight: 500;
+  font-size: 0.8em;
+
+  color: rgb(134, 0, 74);
+  text-align: center;
+}
+
+.lefth1 {
+  display: flex;
+  align-content: flex-start;
+}
+.lefth1 h1 {
+  font-family: 'Hind';
+  font-weight: 900;
+  font-size: 3rem;
+  padding: 10px;
+  color: rgb(134, 0, 74);
+}

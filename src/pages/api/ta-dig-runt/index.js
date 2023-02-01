@@ -1,4 +1,4 @@
-import { taDigRunt } from '../../../../ta-dig-runt'
+import { taDigRunt } from '../../../../databcn'
 
 export default function handler(req, res) {
   res.status(200).json(taDigRunt)

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&display=swap');
+
+.card {
+  width: 30%;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  margin: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease-in-out;
+  opacity: 0.9;
+  background-color: aliceblue;
+  padding-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-40px);
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+
+.card__content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover .card__content {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-family: 'Hind';
+  font-weight: 900;
+  font-size: 2rem;
+  padding: 10px;
+  color: rgb(134, 0, 74);
+  opacity: 1;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: center;
+}
+.hidden {
+  opacity: 0.8;
+}
+.hidden:hover {
+  opacity: 1;
+}
+
+.hidden p {
+  padding: 10px;
+  font-family: 'Hind';
+  font-size: 0.8em;
+}
