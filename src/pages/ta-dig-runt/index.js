@@ -13,7 +13,9 @@ const about = ({ articles }) => {
             <p>{articles[0].pageTitleDescription}</p>
           </div>
         </div>
-        <MenuList articles={articles} />
+        <div className={stylesMenypage.articles}>
+          <MenuList articles={articles} />
+        </div>
       </div>
     </>
   )
